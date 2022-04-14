@@ -1,0 +1,22 @@
+.nav {
+  &__list {
+    @include flex-v-center;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  &__link {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: var(--silver-color);
+
+    &--active {
+      color: var(--active-color);
+    }
+  }
+}

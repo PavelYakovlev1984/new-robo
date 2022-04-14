@@ -2,11 +2,17 @@
 // colors
 :root {
   // base
-  --font-family: "Open Sans", sans-serif;
-  --content-width: 1170px;
+  --font-family: "Gilroy", sans-serif;
+  --content-width: 919px;
+  --content-fluid-width: 1800px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --container-fluid-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
   // colors
   --light-color: #fff;
+  --dark-color: #000;
+  --descr-color: #606060;
+  --silver-color: #bdbdbd;
+  --active-color: #c1881a;
 }
